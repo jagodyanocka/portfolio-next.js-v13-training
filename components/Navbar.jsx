@@ -15,27 +15,27 @@ function Navbar() {
   return (
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
       <div className='flex justify-between itmes-center w-full h-full px-2 2xl:px-16'>
-      <Image src='/../public/aurora.jpg' alt='/' width='1500' height='50'/>
+      <Image className='shadow-lg shadow-gray-500' src='/../public/aurora.jpg' alt='/' width='1500' height='50'/>
       </div>
       <div>
         <ul className='hidden md:flex justify-end mr-3'>
           <Link href='/'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+            <li className='ml-10 text-sm hover:border-b border-black'>Home</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+            <li className='ml-10 text-sm hover:border-b border-black'>About</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+            <li className='ml-10 text-sm hover:border-b border-black'>Skills</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+            <li className='ml-10 text-sm hover:border-b border-black'>Projects</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+            <li className='ml-10 text-sm hover:border-b border-black'>Contact</li>
           </Link>
         </ul>
-        <div onClick={handleNav} className='md:hidden ml-2'>
+        <div onClick={handleNav} className='md:hidden mr-2 flex justify-end'>
           <AiOutlineMenu size={30}/>
         </div>
       </div>
@@ -50,8 +50,8 @@ function Navbar() {
           <div className='border-b-2 border-[#cde1e1] mt-3 cursor-pointer'>
             <p>Check this out: </p>
           </div>
-        <div className='py-4 flex-col '>
-          <ul className='uppercase'>
+        <div className='flex-col mt-4'>
+          <ul>
             <Link href='/'>
               <li className='py-4 text-sm'>Home</li>
             </Link>
@@ -69,8 +69,8 @@ function Navbar() {
             </Link>
           </ul>
           <div className='pt-40'>
-            <p className='uppercase trackin-widest text-black p-3'>Let's connect </p>
-          <div className='flex items-center space-x-5 my-4 w-full'>
+            <p className='trackin-widest text-black p-1'>Let's connect </p>
+          <div className='flex items-center space-x-5 my-4 mb-4 w-full'>
             <div>
               <AiOutlineGithub size={40} className='text-black cursor-pointer'/>
             </div>
