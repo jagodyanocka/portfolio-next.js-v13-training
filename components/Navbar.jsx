@@ -20,19 +20,19 @@ function Navbar() {
       <div>
         <ul className='hidden md:flex justify-end mr-3'>
           <Link href='/'>
-            <li className='ml-10 text-sm hover:border-b border-black'>Home</li>
+            <li className='ml-10 text-lg hover:border-b border-black'>Home</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm hover:border-b border-black'>About</li>
+            <li className='ml-10 text-lg hover:border-b border-black'>About</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm hover:border-b border-black'>Skills</li>
+            <li className='ml-10 text-lg hover:border-b border-black'>Skills</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm hover:border-b border-black'>Projects</li>
+            <li className='ml-10 text-lg hover:border-b border-black'>Projects</li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm hover:border-b border-black'>Contact</li>
+            <li className='ml-10 text-lg hover:border-b border-black'>Contact</li>
           </Link>
         </ul>
         <div onClick={handleNav} className='md:hidden mr-2 flex justify-end'>
