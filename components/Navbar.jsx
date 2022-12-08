@@ -13,9 +13,9 @@ function Navbar() {
   }
 
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100]'>
+    <div className='fixed w-full h-28 shadow-xl z-[100]'>
       <div className='flex justify-between itmes-center w-full h-full px-2 2xl:px-16'>
-      <Image className='shadow-lg shadow-gray-500' src='/../public/aurora.jpg' alt='/' width='1500' height='50'/>
+      <Image className='shadow-lg shadow-gray-500' src='/../public/aurora2.jpg' width='2000' height='60'/>
       </div>
       <div>
         <ul className='hidden md:flex justify-end mr-3'>

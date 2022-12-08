@@ -5,6 +5,8 @@ import Image from 'next/image'
 import '../public/aurora.jpg'
 import Me from '../components/Me'
 import About from '../components/About'
+import Skills from '../components/Skills'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
     <Navbar/>
     <Me/>
     <About/>
+    <Skills/>
+    <Projects/> 
     </div>
   )
 
