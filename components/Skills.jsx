@@ -16,6 +16,9 @@ function Skills() {
                             <Image src='/../public/Spring.png' width='100' height='100'/>
                         </div>
                         <div className='m-auto hover:scale-110 ease-in duration-300'> 
+                            <Image src='/../public/SpringBoot.webp' width='100' height='100'/>
+                        </div>
+                        <div className='m-auto hover:scale-110 ease-in duration-300'> 
                             <Image src='/../public/Mongo.webp' width='100' height='100'/>
                         </div>
                         <div className='m-auto hover:scale-110 ease-in duration-300'> 

@@ -15,6 +15,12 @@ function Projects() {
                 <div className='relative flex itmes-center justify-center h-auto w-auto shadow-xl shadow-gray-500 rounded-xl p-4 group hover:bg-gradient-to-r from-[#3c8475] to-[#c2dad9]'>
                     <Image className='border-l-2 border-r-2 border-b-2 group-hover:opacity-25' src='/../public/Portfolio.png' width='500' height='400'/>
                 </div>
+                <div className='relative flex itmes-center justify-center h-auto w-auto shadow-xl shadow-gray-500 rounded-xl p-4 group hover:bg-gradient-to-r from-[#3c8475] to-[#c2dad9]'>
+                    <Image className='border-l-2 border-r-2 border-b-2 group-hover:opacity-25' src='/../public/Portfolio.png' width='500' height='400'/>
+                </div>
+                <div className='relative flex itmes-center justify-center h-auto w-auto shadow-xl shadow-gray-500 rounded-xl p-4 group hover:bg-gradient-to-r from-[#3c8475] to-[#c2dad9]'>
+                    <Image className='border-l-2 border-r-2 border-b-2 group-hover:opacity-25' src='/../public/Portfolio.png' width='500' height='400'/>
+                </div>
             </div>
         </div>
     </div>
