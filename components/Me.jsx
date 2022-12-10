@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiOutlineGithub, AiOutlineMail } from 'react-icons/ai';
 
 function Me() {
   return (
-    <div className='w-full h-screen text-center'>
+    <div id='me' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div className='pt-20'>
                 <h1 className='tracking-widest text-gray-600'>Hello, I'm <span className='text-[#3c8475]'>Jagoda!</span></h1>

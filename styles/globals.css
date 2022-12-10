@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 @layer base {
     body {
         @apply bg-[#ffffff] text-[#000000] tracking-wide
@@ -24,6 +28,6 @@
     }
 
     button {
-        @apply shadow-xl shadow-gray-400 uppercase bg-gradient-to-r from-[#BF9B93] to-[#933030] text-white
+        @apply shadow-xl shadow-gray-400 uppercase bg-gradient-to-r from-[#3e9588] to-[#c85454] text-white
     }
 }

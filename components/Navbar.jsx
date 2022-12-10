@@ -22,16 +22,16 @@ function Navbar() {
           <Link href='/'>
             <li className='ml-10 text-lg hover:border-b border-black'>Home</li>
           </Link>
-          <Link href='/'>
+          <Link href='/#about'>
             <li className='ml-10 text-lg hover:border-b border-black'>About</li>
           </Link>
-          <Link href='/'>
+          <Link href='/#skills'>
             <li className='ml-10 text-lg hover:border-b border-black'>Skills</li>
           </Link>
-          <Link href='/'>
+          <Link href='/#projects'>
             <li className='ml-10 text-lg hover:border-b border-black'>Projects</li>
           </Link>
-          <Link href='/'>
+          <Link href='/#contact'>
             <li className='ml-10 text-lg hover:border-b border-black'>Contact</li>
           </Link>
         </ul>
@@ -52,20 +52,20 @@ function Navbar() {
           </div>
         <div className='flex-col mt-4'>
           <ul>
-            <Link href='/'>
-              <li className='py-4 text-sm'>Home</li>
+            <Link onClick={handleNav} href='/'>
+              <li className='py-4 text-sm hover:border-b'>Home</li>
             </Link>
-            <Link href='/'>
-              <li className='py-4 text-sm'>About</li>
+            <Link onClick={handleNav} href='/#about'>
+              <li className='py-4 text-sm hover:border-b'>About</li>
             </Link>
-            <Link href='/'>
-              <li className='py-4 text-sm'>Skills</li>
+            <Link onClick={handleNav} href='/#skills'>
+              <li className='py-4 text-sm hover:border-b'>Skills</li>
             </Link>
-            <Link href='/'>
-              <li className='py-4 text-sm'>Projects</li>
+            <Link onClick={handleNav} href='/#projects'>
+              <li className='py-4 text-sm hover:border-b'>Projects</li>
             </Link>
-            <Link href='/'>
-              <li className='py-4 text-sm'>Contact</li>
+            <Link onClick={handleNav} href='/#contact'>
+              <li className='py-4 text-sm hover:border-b'>Contact</li>
             </Link>
           </ul>
           <div className='pt-40'>
